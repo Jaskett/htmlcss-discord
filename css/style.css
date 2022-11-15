@@ -118,7 +118,8 @@ a {
 }
 
 img {
-    width: 100%;
+    width: 90%;
+    
 }
 
 .box-dx {
@@ -132,8 +133,8 @@ img {
 }
 
 .box-dx > h1 {
-    font-size: 35px;
-    line-height: 40px;
+    font-size: 33px;
+    line-height: 38px;
 }
 
 .box-dx > p {
