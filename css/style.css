@@ -1,0 +1,242 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Header */
+header {
+    padding: 10px;
+}
+
+.header-box {
+    margin: auto;
+    display: flex;
+}
+
+.logo {
+    padding: 5px;
+    line-height: 28px;
+    flex-grow: 1;
+}
+
+.link {
+    padding: 5px;
+    line-height: 28px;
+    flex-grow: 3;
+    text-align: center;
+}
+
+.login {
+    padding: 5px;
+    line-height: 28px;
+    flex-grow: 1;
+    text-align: end;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    padding: 5px;
+}
+
+/* Main */
+/* Section 1 */
+.section1 {
+    padding: 20px;
+}
+
+.section1 > .box1 {
+    width: 600px;
+    height: 200px;
+    margin: auto;
+}
+
+/* Sezione 2 e 4 */
+.subsection2 {
+    padding: 20px;
+}
+
+.subsection2 > .box2 {
+    width: 700px;
+    height: 200px;
+    margin: auto;
+    display: flex;
+}
+
+.box-sx {
+    flex-grow: 2;
+}
+
+.box-dx {
+    flex-grow: 1;
+}
+
+/* Sezione 3 */
+.underline {
+    padding: 20px;
+}
+
+.underline > .box2 {
+    display: flex;
+    flex-direction: row-reverse;
+    width: 700px;
+    height: 200px;
+    margin: auto;
+}
+
+/* Sezione 5 */
+.section5 {
+    padding: 20px;
+}
+
+.section5 > .box3 {
+    width: 700px;
+    height: 400px;
+    margin: auto;
+}
+
+/* Sezione 6 */
+.section6 {
+    padding: 20px;
+}
+
+.section6 > .box4 {
+    width: 700px;
+    height: 300px;
+    margin: auto;
+    display: flex;
+}
+
+.section6 > .box4 > .box-sx-2 {
+    flex-grow: 1;
+}
+
+.section6 > .box4 > .box-dx-2 {
+    flex-grow: 2;
+    display: flex;
+}
+
+.underbox {
+    border: 1px dashed white;
+    flex-grow: 1;
+}
+
+/* Footer */
+footer {
+    padding: 20px;
+}
+
+.footer-box {
+    width: 700px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo-footer {
+    margin: 15px 0;
+}
+
+.button-footer {
+    margin: 15px 0;
+}
+
+/* Colori:
+    Celeste: #add8e6
+    Arancione: #daa520
+    Blu: #00008b
+    Violetto: #ee82ee
+    Azzurro scuro: #1e90ff
+    Rosa chiaro: #ffc0cb
+    Grigio chiaro: #d3d3d3
+    Verde scuro: #228b22
+    Grigio scuro: #23272a
+    Rosa scuro: #f08080 
+    Celeste scuro: #20b2aa */
+
+/* Debug */
+.debug header {
+    background-color: #add8e6;
+}
+
+.debug header .header-box {
+    background-color: #daa520;
+}
+
+.debug header .logo {
+    border: 1px dashed black;
+}
+
+.debug header .link{
+    border: 1px dashed black;
+}
+
+.debug header.login {
+    border: 1px dashed black;
+}
+
+.debug main .section1 {
+    background-color: #00008b;
+}
+
+.debug main .box1 {
+    background-color: #ee82ee;
+    border: 1px dashed black;
+}
+
+.debug main .box-sx {
+    background-color: #1e90ff;
+    border: 1px dashed black;
+}
+
+.debug main .box-dx {
+    background-color: #ffc0cb;
+    border: 1px dashed black;
+}
+
+.debug main .underline {
+    background-color: #d3d3d3;
+}
+
+.debug main .section5 {
+    background-color: #d3d3d3;
+}
+
+.debug main .box3 {
+    background-color: #228b22;
+    border: 1px dashed black;
+}
+
+.debug main .section6 {
+    background-color: #23272a;
+}
+
+.debug main .box4 .box-sx-2 {
+    background-color: #f08080;
+    border: 1px dashed black;
+}
+
+.debug main .box4 .box-dx-2 {
+    background-color: #20b2aa;
+}
+
+.debug footer {
+    background-color: #23272a;
+    border-top: 1px solid white;
+}
+
+.debug footer .footer-box {
+    background-color: #add8e6;
+}
+
+.debug footer .logo-footer {
+    background-color: #ffc0cb;
+    border: 1px dashed black;
+}
+
+.debug footer .button-footer {
+    background-color: #ffc0cb;
+    border: 1px dashed black;
+}
