@@ -92,10 +92,14 @@ a {
 }
 
 .browser {
-    background-color: black;
+    background-color: #23272a;
     border-radius: 50px;
     font-size: 14px;
     padding: 15px;
+}
+
+i {
+    margin: 0 7px;
 }
 
 .mac, .browser {
@@ -196,7 +200,7 @@ img {
 
 /* Sezione 6 */
 .section6 {
-    background-color: black;
+    background-color: #23272a;
     padding: 20px;
 }
 
@@ -227,7 +231,13 @@ img {
 
 select {
     border: none;
-    background-color: black;
+    background-color: #23272a;
+    color: white;
+}
+
+.icons i {
+    margin-left: 0;
+    margin-right: 15px;
     color: white;
 }
 
@@ -255,7 +265,7 @@ ol {
 
 /* Footer */
 footer {
-    background-color: black;
+    background-color: #23272a;
     padding: 20px;
     border-top: 1px solid white;
 }
