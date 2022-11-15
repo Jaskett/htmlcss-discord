@@ -156,13 +156,42 @@ img {
 
 /* Sezione 5 */
 .section5 {
+    background-color: #f6f6f6;
     padding: 20px;
 }
 
 .section5 > .box3 {
     width: 700px;
-    height: 400px;
     margin: auto;
+    text-align: center;
+}
+
+.box3 > h1, .box3 > p,
+.box3 > h3, .box3 > a {
+    margin: 20px;
+}
+
+.box3 > h1 {
+    font-size: 33px;
+}
+
+.box3 > p {
+    font-size: 15px;
+    line-height: 20px;
+}
+
+.box3 > h3 {
+    width: 370px;
+    margin: auto;
+    background-image: url("../img/stars.svg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    padding: 20px;
+}
+
+.box3 .mac {
+    color: white;
+    background-color: #8ea1e1;
 }
 
 /* Sezione 6 */
