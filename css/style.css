@@ -11,38 +11,47 @@ body {
 
 /* Header */
 header {
+    background-color: #255ee9;
     padding: 10px;
 }
 
 .header-box {
+    width: 800px;
     margin: auto;
     display: flex;
+    font-size: 14px;
+}
+
+.header-box > * {
+    padding: 5px;
 }
 
 .logo {
-    padding: 5px;
-    line-height: 28px;
-    flex-grow: 1;
+    width: 20%;
 }
 
 .link {
-    padding: 5px;
-    line-height: 28px;
-    flex-grow: 3;
+    width: 60%;
     text-align: center;
 }
 
 .login {
-    padding: 5px;
-    line-height: 28px;
-    flex-grow: 1;
+    width: 20%;
     text-align: end;
 }
 
 a {
     text-decoration: none;
-    color: black;
-    padding: 5px;
+    color: white;
+    padding: 10px;
+    display: inline-block;
+}
+
+.text {
+    background-color: white;
+    border-radius: 25%;
+    padding: 10px;
+    display: inline-block;
 }
 
 /* Main */
