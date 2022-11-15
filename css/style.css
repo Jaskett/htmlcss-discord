@@ -5,6 +5,10 @@
     box-sizing: border-box;
 }
 
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
 /* Header */
 header {
     padding: 10px;
@@ -165,15 +169,7 @@ footer {
     background-color: #daa520;
 }
 
-.debug header .logo {
-    border: 1px dashed black;
-}
-
-.debug header .link{
-    border: 1px dashed black;
-}
-
-.debug header.login {
+.debug header .header-box > * {
     border: 1px dashed black;
 }
 
