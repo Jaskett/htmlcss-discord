@@ -196,6 +196,7 @@ img {
 
 /* Sezione 6 */
 .section6 {
+    background-color: black;
     padding: 20px;
 }
 
@@ -207,17 +208,49 @@ img {
 }
 
 .section6 > .box4 > .box-sx-2 {
-    flex-grow: 1;
+    width: 30%;
+    padding: 10px 10px;
+}
+
+.section6 > .box4 > .box-sx-2 > h1 {
+    color: #7289da;
+    font-size: 18px;
+}
+
+.section6 .select {
+    line-height: 50px;
+}
+
+.section6 img {
+    width: 15%;
+}
+
+select {
+    border: none;
+    background-color: black;
+    color: white;
 }
 
 .section6 > .box4 > .box-dx-2 {
-    flex-grow: 2;
+    width: 70%;
     display: flex;
 }
 
 .underbox {
-    border: 1px dashed white;
-    flex-grow: 1;
+    width: 25%;
+    line-height: 30px;
+}
+
+.category {
+    color: #7289da;
+    font-size: 14px;
+    font-weight: bolder;
+}
+
+ol {
+    list-style-type: none;
+    font-size: 14px;
+    color: white;
 }
 
 /* Footer */
