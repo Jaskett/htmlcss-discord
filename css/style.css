@@ -89,7 +89,6 @@ a {
     padding: 15px;
     font-size: 14px;
     margin-top: 20px;
-    margin-right: 10px;
 }
 
 .browser {
@@ -97,7 +96,10 @@ a {
     border-radius: 50px;
     font-size: 14px;
     padding: 15px;
-    margin-left: 10px;
+}
+
+.mac, .browser {
+    margin: 10px;
 }
 
 /* Sezione 2 e 4 */
@@ -188,94 +190,4 @@ footer {
 
 .button-footer {
     margin: 15px 0;
-}
-
-/* Colori:
-    Celeste: #add8e6
-    Arancione: #daa520
-    Blu: #00008b
-    Violetto: #ee82ee
-    Azzurro scuro: #1e90ff
-    Rosa chiaro: #ffc0cb
-    Grigio chiaro: #d3d3d3
-    Verde scuro: #228b22
-    Grigio scuro: #23272a
-    Rosa scuro: #f08080 
-    Celeste scuro: #20b2aa */
-
-/* Debug */
-.debug header {
-    background-color: #add8e6;
-}
-
-.debug header .header-box {
-    background-color: #daa520;
-}
-
-.debug header .header-box > * {
-    border: 1px dashed black;
-}
-
-.debug main .section1 {
-    background-color: #00008b;
-}
-
-.debug main .box1 {
-    background-color: #ee82ee;
-    border: 1px dashed black;
-}
-
-.debug main .box-sx {
-    background-color: #1e90ff;
-    border: 1px dashed black;
-}
-
-.debug main .box-dx {
-    background-color: #ffc0cb;
-    border: 1px dashed black;
-}
-
-.debug main .underline {
-    background-color: #d3d3d3;
-}
-
-.debug main .section5 {
-    background-color: #d3d3d3;
-}
-
-.debug main .box3 {
-    background-color: #228b22;
-    border: 1px dashed black;
-}
-
-.debug main .section6 {
-    background-color: #23272a;
-}
-
-.debug main .box4 .box-sx-2 {
-    background-color: #f08080;
-    border: 1px dashed black;
-}
-
-.debug main .box4 .box-dx-2 {
-    background-color: #20b2aa;
-}
-
-.debug footer {
-    background-color: #23272a;
-    border-top: 1px solid white;
-}
-
-.debug footer .footer-box {
-    background-color: #add8e6;
-}
-
-.debug footer .logo-footer {
-    background-color: #ffc0cb;
-    border: 1px dashed black;
-}
-
-.debug footer .button-footer {
-    background-color: #ffc0cb;
-    border: 1px dashed black;
 }
