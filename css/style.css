@@ -109,17 +109,36 @@ a {
 
 .subsection2 > .box2 {
     width: 700px;
-    height: 200px;
     margin: auto;
     display: flex;
 }
 
 .box-sx {
-    flex-grow: 2;
+    width: 60%;
+}
+
+img {
+    width: 100%;
 }
 
 .box-dx {
-    flex-grow: 1;
+    width: 40%;
+}
+
+.box-dx > h1, .box-dx > p {
+    color: black;
+    padding: 10px 0px 10px 20px;
+    line-height: 20px;
+}
+
+.box-dx > h1 {
+    font-size: 35px;
+    line-height: 40px;
+}
+
+.box-dx > p {
+    font-size: 15px;
+    line-height: 20px;
 }
 
 /* Sezione 3 */
